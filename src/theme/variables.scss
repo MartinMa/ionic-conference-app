@@ -17,6 +17,9 @@ $font-path: "../assets/fonts";
 
 $headings-font-weight: 300;
 
+$list-border-color: #4c4d4f;
+$list-ios-text-color: rgba(255, 255, 255, 0.75);
+
 
 // Named Color Variables
 // --------------------------------------------------
@@ -49,6 +52,8 @@ $colors: (
 // App Material Design Variables
 // --------------------------------------------------
 // Material Design only Sass variables can go here
+
+$list-md-border-color: $list-border-color;
 
 // Use the primary color as the background for the toolbar-md-background
 $toolbar-md-background:                   color($colors, primary);
